@@ -7,11 +7,6 @@ module.exports = {
         path: './public/',
         filename: 'bundle.js'
     },
-    devServer: {
-        inline: true,
-        port: 3000,
-        historyApiFallback: true
-    },
     plugins: [
         new webpack.optimize.OccurenceOrderPlugin(),
         new webpack.optimize.DedupePlugin(),

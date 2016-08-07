@@ -4,7 +4,7 @@ import {Link} from 'react-router';
 class Home extends React.Component {
     render() {
         return (
-            <div>
+            <div className="home">
                 <h1>
                     This is home page
                 </h1>

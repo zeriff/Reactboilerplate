@@ -1,14 +1,11 @@
-var webpack = require('webpack');
-
 module.exports = {
-    devtool: 'cheap-module-source-map',
-    entry: './src/main.js',
+    entry: ['./src/main.js'],
     output: {
-        path: './public/',
+        path: __dirname + '/public/',
         filename: 'bundle.js'
     },
     devServer: {
-        inline: true,
+        contentBase: './public/',
         port: 3000,
         historyApiFallback: true
     },
@@ -17,9 +14,9 @@ module.exports = {
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
-                loader: 'babel',
+                loader: ['babel'],
                 query: {
-                    presets: ['es2015', 'react']
+                    presets: ['react', 'es2015', 'stage-1']
                 }
             }, {
                 test: /\.css$/,
