@@ -15,7 +15,7 @@ class Blog extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="blog">
                 <form onSubmit={this.handleOnFormSubmit.bind(this)}>
                     <input value={this.state.tagText} type="text" placeholder="Enter blog tag" onChange={e => this.setState({tagText: e.target.value})}/>
                     <button type="submit">Add Tag</button>

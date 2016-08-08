@@ -5,7 +5,7 @@ import {connect} from 'react-redux';
 class Showcase extends React.Component {
     render() {
         return (
-            <div>
+            <div className="showcase">
                 <h1>Changed showcase again changed</h1>
                 <Link to="/blog">Blog</Link>
             </div>

@@ -1,13 +1,13 @@
 import {renderComponent, expect} from './../../test/test_helper';
-import Home from './index';
+import Showcase from './index';
 
 describe('Home', () => {
     let component;
     beforeEach(() => {
-        component = renderComponent(Home);
+        component = renderComponent(Showcase);
     });
 
     it('has div with class home', () => {
-        expect(component).to.have.class ('home');
+        expect(component).to.have.class ('showcase');
     });
 });
