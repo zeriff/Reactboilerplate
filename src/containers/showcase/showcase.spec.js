@@ -1,4 +1,4 @@
-import {renderComponent, expect} from './../../test/test_helper';
+import {renderComponent, expect} from './../../test_helper';
 import Showcase from './index';
 
 describe('Home', () => {

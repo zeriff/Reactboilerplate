@@ -1,6 +1,6 @@
 import React from 'react';
 import {Route, IndexRoute} from 'react-router';
-import App from './App';
+import App from './containers/App';
 import Showcase from './containers/showcase';
 import Blog from './containers/blog';
 

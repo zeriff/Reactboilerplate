@@ -20,7 +20,6 @@ class Blog extends React.Component {
                     <input value={this.state.tagText} type="text" placeholder="Enter blog tag" onChange={e => this.setState({tagText: e.target.value})}/>
                     <button type="submit">Add Tag</button>
                 </form>
-                <h1>Changed blog</h1>
             </div>
         )
     }

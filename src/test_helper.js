@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 import chai, {expect} from 'chai';
 import {Provider} from 'react-redux';
 import {createStore} from 'redux';
-import reducers from './../reducers';
+import reducers from './reducers';
 import React from 'react';
 import chaiJquery from 'chai-jquery';
 

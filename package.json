@@ -7,7 +7,7 @@
     "start:dev": "webpack-dev-server --inline --content-base ./public --config webpack.config.js",
     "start:production": "npm run test && npm run build && node server",
     "build": "webpack --config webpack.production.config.js",
-    "test": "mocha --compilers js:babel-core/register --require ./src/test/test_helper.js --recursive ./src/**/**/*.spec.js",
+    "test": "mocha --compilers js:babel-core/register --require ./src/test_helper.js --recursive ./src/**/**/*.spec.js",
     "test:watch": "npm run test -- --watch"
   },
   "author": "sujan thakare",
